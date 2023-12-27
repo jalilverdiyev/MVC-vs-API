@@ -6,7 +6,7 @@ Bu sual çox vaxt layihə menecerlərini narahat etsə də, bəzən full-stack d
 
 ## MVC
 
-<img src="./docs/MVC illustration.png">
+<img src="./docs/MVC illustration.png"> <br/>
 MVC 1970-ci illərdə [Trygve Reenskaug](https://en.wikipedia.org/wiki/Trygve_Reenskaug) tərəfindən yaradılıb və Model-View-Controller sözlərinin baş hərflərindən ibarətdir. Bəzən sadəcə veb dünyasında olduğu düşünülsə də özlüyündə bir dizayn pattern-dir, bu o deməkdir ki, biz MVC-ni konsol layihədə belə tətbiq edə bilərik. Aşağıda hər parçanın kiçik də olsa izahını tapa bilərsiniz:
 
 ### View
@@ -116,7 +116,7 @@ Istifadəçini qeydiyyatdan keçirmək üçün olan sadə bir Controller Action-
 
 ### MVC-nin müsbət və mənfi cəhətləri
 
-<img src="./docs/Pros and cons.jpg" />
+<img src="./docs/Pros and cons.jpg" /><br/>
 
 #### Müsbət tərəfləri
 
@@ -135,17 +135,17 @@ Istifadəçini qeydiyyatdan keçirmək üçün olan sadə bir Controller Action-
 
 ## API
 
-<img src="./docs/api.svg" />
+<img src="./docs/api.svg" /><br/>
 API sözü ilk dəfə 1940-cı illərdə ortaya çıxsa da məhşurlaşması MVC kimi 1970-ci illərə təsir edir. Adını Application Programming Interface sözlərinin baş hərflərindən götürüb. Təkcə veb dünyasında deyil proqramlaşdırmanın demək olar istənilən hissəsinə təsir edən məhvumdur. Veb dünyasında isə API-lər istifadə edilərək front-end və back-end proqramçılar ayrıla bilir. Beləcə hər iki tərəf bir-birilərindən "asılı olmadan" proyekti yaza bilirlər. C# dili ilə də Web API-lər yazmaq mümkündür. Hətta maraqlı tərəfi odur ki, MVC məntiqinə çox oxşar olduğu üçün MVC proqramçıları rahatlıqla WEB API-lər yaza bilirlər. API-lər özlərində isə 2 yerə bölünürlər: SOAP və RESTful.
 
 ### SOAP
 
-<img src="./docs/soap.png" />
+<img src="./docs/soap.png" /> <br/>
 Açılışı Simple Object Access Protocol-dur. RESTful API-lərdən öncə sahəni dominant edən API növlərindən olubdur. Ki, hələ də mobil aplikasiya üçün yazılan API-ların bir çoxunda istifadə edilir. Lakin, zaman keçdikcə RESTful API-lər SOAP-ları əvəz edirlər(mobildə belə). Bunun səbəbi isə SOAP-ın məlumat transferi üçün XML(extensible markup language) istifadə etməsidir, hansı ki özlüyündə çox ağırdır. Bu da bizim HTTP request və responsların həcmini böyüdür.
 
 ### RESTful
 
-<img src="./docs/rest.png" />
+<img src="./docs/rest.png" /> <br/>
 Açılışı Representational State Transfer-dən gəlir. SOAP-a görə tərcih edilməsinin əsas səbəbi özündə JSON(JavaScript Object Notation) formatı işlətməyidir. Adında JavaScript sözünün olmasına baxmayaraq demək olar bütün proqramlaşdırma dilləri tərəfindən tanınan bir formatdır. Hətta belə bir bənzətmə belə verə bilərik ki, proqramlaşdırma dünyasının ingilis dilidir. JSON formatını işlətməklə HTTP requestlər və responslarımızın daha yüngül olmasına nail oluruq. Əgər JSON-dan da yüngül format axtarırsınızsa ProtoBuff-lara baxa bilərsiniz(bu ayrı yazımızın mövzusudur🤠)
 
 > İndi isə keçək pis və yaxşı tərəflərinə
