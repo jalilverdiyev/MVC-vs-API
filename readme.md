@@ -163,7 +163,7 @@ Açılışı Representational State Transfer-dən gəlir. SOAP-a görə tərcih 
 
 - Proqramçıların ayrılması development vaxtını artıra bilir
 - Hər nə qədər back-end developerlər front-end developerlərdən asılı olmadıqları kimi görünsə də əslində necə response-lar verilməli olduğu, hansı endpointlərin yazılmalı olduğunu gözləməli olurlar. Yaxşı layihə meneceri bu problemi həll edir
-- MVC layihə üçün bir server bəs elədiyi təqdirdə(əgər databaza və statik faylların saxlanılması ayrılırsa onda server sayı arta bilir), API ilə ayrılan front və back end-lər minimum iki ayrı serverdə yerləşdirilməli olur
+- MVC layihə üçün bir server bəs elədiyi təqdirdə(əgər databaza və statik faylların saxlanılması ayrılırsa onda server sayı arta bilir), API ilə ayrılan front və back end-lər iki ayrı instance olaraq qalır
 - Hər tərəfli düşünülməli olduğu üçün quraşdırılması vaxt və maddiyyat tələb edir
 
 Gördüyünüz kimi hər nə qədər, API-nin müsbət tərəfləri cəlbedici görünsə də, mənfi cəhətləri də nəzərə alınmalıdır. O zaman ilk sualımıza cavab verək?
